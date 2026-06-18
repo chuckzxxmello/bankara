@@ -8,8 +8,6 @@ For this project, that idea translates into choosing to learn beneath the abstra
 
 This is a small-scale portfolio project built by a junior developer to better understand how modern financial software operates at a lower level. It prioritizes learning, experimentation, and technical understanding over speed of deployment.
 
----
-
 ## What the Project Does
 
 Bankara functions as a prototype digital wallet with the following features:
