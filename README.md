@@ -1,4 +1,4 @@
-<img src="https://readme-typing-svg.herokuapp.com?font=Anaheim&size=32&duration=3000&pause=1000&color=0081FB&width=1000&lines=Bankara;Digital+Wallet+API+Endpoint+Tester" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Anaheim&size=32&duration=3000&pause=1000&color=0081FB&width=1000&lines=Bankara;API+Endpoint+Tester" alt="Typing SVG" />
 
 **Bankara** is a personal learning project designed to explore backend engineering, web security, databases, networking, and software architecture. 
 
