@@ -1,0 +1,56 @@
+.dashboard-container {
+  min-height: 100vh;
+  background-color: #f0f8ff; /* Azure White/AliceBlue */
+  font-family: 'Inter', sans-serif;
+}
+
+/* Customizing the Carbon Header for Azure Blue theme */
+.cds--header {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #e0eaf5 !important;
+  box-shadow: 0 2px 10px rgba(0, 127, 255, 0.05);
+}
+
+.cds--header__name, .cds--header__menu-toggle__hidden {
+  color: #0062ff !important;
+}
+
+.cds--header__menu-toggle {
+  color: #0062ff !important;
+}
+
+.cds--side-nav {
+  background-color: #ffffff !important;
+  border-right: 1px solid #e0eaf5 !important;
+  box-shadow: 2px 0 10px rgba(0, 127, 255, 0.05);
+}
+
+.cds--side-nav__link {
+  color: #333333 !important;
+}
+
+.cds--side-nav__link[aria-current="page"],
+.cds--side-nav__link:hover {
+  background-color: #f0f8ff !important;
+  color: #0062ff !important;
+}
+
+.cds--side-nav__icon {
+  fill: #0062ff !important;
+}
+
+.dashboard-content {
+  padding-top: 3rem; /* Height of Carbon header */
+  padding-left: 0;
+  transition: padding-left 200ms cubic-bezier(0.2, 0, 0.38, 0.9);
+}
+
+.content-expanded {
+  padding-left: 16rem; /* Width of expanded SideNav */
+}
+
+@media (max-width: 1056px) {
+  .content-expanded {
+    padding-left: 0; /* SideNav acts as overlay on smaller screens */
+  }
+}

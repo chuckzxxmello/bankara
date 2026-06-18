@@ -1,0 +1,46 @@
+.hero {
+  background-color: #ffffff;
+  padding: 120px 16px;
+  text-align: center;
+  font-family: 'IBM Plex Sans', Arial, sans-serif;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 600;
+  color: #161616;
+  margin: 0 0 16px 0;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  color: #525252;
+  margin: 0 0 32px 0;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.hero-cta {
+  min-width: 200px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 80px 16px;
+  }
+
+  .hero-title {
+    font-size: 32px;
+  }
+
+  .hero-subtitle {
+    font-size: 18px;
+  }
+}

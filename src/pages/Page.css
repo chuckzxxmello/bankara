@@ -1,0 +1,94 @@
+.page-content {
+  font-family: 'IBM Plex Sans', Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.page-header {
+  background-color: #f4f4f4;
+  padding: 80px 16px;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.page-header h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #161616;
+  margin: 0 0 16px 0;
+  letter-spacing: -0.5px;
+}
+
+.page-header p {
+  font-size: 18px;
+  color: #525252;
+  margin: 0;
+  font-weight: 400;
+}
+
+.page-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 64px 16px;
+}
+
+.page-section h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #161616;
+  margin: 32px 0 16px 0;
+  letter-spacing: -0.3px;
+}
+
+.page-section h2:first-child {
+  margin-top: 0;
+}
+
+.page-section p {
+  font-size: 16px;
+  color: #525252;
+  line-height: 1.6;
+  margin: 0 0 16px 0;
+}
+
+.page-section ul {
+  font-size: 16px;
+  color: #525252;
+  line-height: 1.8;
+  margin: 0 0 24px 0;
+  padding-left: 24px;
+}
+
+.page-section li {
+  margin: 0 0 12px 0;
+}
+
+.page-section strong {
+  color: #161616;
+}
+
+@media (max-width: 768px) {
+  .page-header {
+    padding: 60px 16px;
+  }
+
+  .page-header h1 {
+    font-size: 28px;
+  }
+
+  .page-header p {
+    font-size: 16px;
+  }
+
+  .page-section {
+    padding: 48px 16px;
+  }
+
+  .page-section h2 {
+    font-size: 20px;
+  }
+
+  .page-section p,
+  .page-section ul {
+    font-size: 14px;
+  }
+}

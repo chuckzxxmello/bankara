@@ -1,0 +1,55 @@
+.services-section {
+  padding: 64px 16px;
+  background-color: #ffffff;
+}
+
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-tile {
+  background-color: #ffffff;
+  padding: 32px;
+  border-radius: 2px;
+  border: 1px solid #e0e0e0;
+  height: 100%;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.service-tile:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-color: #0078ff;
+}
+
+.service-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #161616;
+  margin: 0 0 16px 0;
+}
+
+.service-description {
+  font-size: 16px;
+  color: #525252;
+  margin: 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .services-section {
+    padding: 48px 16px;
+  }
+
+  .service-tile {
+    padding: 24px;
+  }
+
+  .service-title {
+    font-size: 18px;
+  }
+
+  .service-description {
+    font-size: 14px;
+  }
+}

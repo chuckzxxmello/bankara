@@ -1,0 +1,21 @@
+/* styles.css */
+body {
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+    background-color: #f4f8fb;
+    margin: 0;
+    padding: 0;
+    color: #161616;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #0f62fe;
+  }
+  
+  a {
+    color: #0f62fe;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }

@@ -1,0 +1,32 @@
+.dashboard-page {
+  animation: fadeIn 0.3s ease-in-out;
+  padding: 2rem;
+  max-width: 1056px;
+  margin: 0 auto;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.welcome-header {
+  margin-bottom: 0.5rem;
+}
+
+.overview-subtitle {
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}

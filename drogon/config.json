@@ -1,0 +1,28 @@
+{
+  "listeners": [
+    {
+      "address": "0.0.0.0",
+      "port": 5150,
+      "https": false
+    }
+  ],
+  "db_clients": [
+    {
+      "name": "default",
+      "rdbms": "postgresql",
+      "host": "db",
+      "port": 5432,
+      "dbname": "bankara_db",
+      "user": "postgres",
+      "passwd": "password",
+      "is_fast": false,
+      "client_encoding": "UTF8",
+      "number_of_connections": 10,
+      "timeout": -1.0
+    }
+  ],
+  "app": {
+    "threads_num": 0,
+    "document_root": "./dist"
+  }
+}

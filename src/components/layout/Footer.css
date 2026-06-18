@@ -1,0 +1,13 @@
+.footer {
+  margin-top: auto;
+  font-family: 'IBM Plex Sans', Arial, sans-serif;
+}
+
+.footer-bottom {
+  background-color: #ffffff;
+  border-top: 1px solid #e0eaf5;
+  padding: 24px 16px;
+  text-align: center;
+  font-size: 14px;
+  color: #525252;
+}

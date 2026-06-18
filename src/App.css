@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  font-family: 'IBM Plex Sans', Arial, sans-serif;
+  background-color: #ffffff;
+  color: #161616;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Carbon override for header */
+.bx--header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.bx--header__name {
+  color: #161616;
+}
+
+.bx--header__nav-item > a,
+.bx--header__menu-trigger {
+  color: #161616;
+}
+
+.bx--header__nav-item > a:hover {
+  background-color: #f4f4f4;
+}
+
+.bx--btn--primary {
+  background-color: #0078ff;
+  color: #ffffff;
+}
+
+.bx--btn--primary:hover {
+  background-color: #0066dd;
+}
+
+.bx--tile {
+  border: 1px solid #e0e0e0;
+  background-color: #ffffff;
+}
+
+/* Carbon text input and textarea */
+.bx--text-input,
+.bx--text-area {
+  background-color: #ffffff;
+  border: 1px solid #8d8d8d;
+  color: #161616;
+}
+
+.bx--text-input:focus,
+.bx--text-area:focus {
+  outline: 2px solid #0078ff;
+  outline-offset: 0;
+}
+
+.bx--label {
+  color: #161616;
+  font-weight: 500;
+}
+
+/* Grid and column spacing */
+.bx--grid {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .bx--header__name {
+    font-size: 14px;
+  }
+}
