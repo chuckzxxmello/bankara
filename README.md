@@ -6,9 +6,9 @@ The name comes from the Japanese concept of Bankara - a spirit associated with r
 
 For this project, that idea translates into choosing to learn beneath the abstraction layer rather than relying entirely on managed platforms and generated solutions.
 
-This is a small-scale portfolio project built by a junior developer to better understand how modern financial software operates at a lower level. It prioritizes learning, experimentation, and technical understanding over speed of deployment.
+This is a small-scale project built to better understand how modern financial software operates at a lower level. It prioritizes learning, experimentation, and technical understanding over speed of deployment.
 
-## What the Project Does
+## Project Overview
 
 Bankara functions as a prototype digital wallet with the following features:
 - **Digital Wallet Dashboard**: A clean interface displaying current balances and transaction history.
@@ -18,8 +18,6 @@ Bankara functions as a prototype digital wallet with the following features:
 
 ## Technologies Used
 
-Bankara was built using technologies chosen specifically to explore fundamental engineering concepts:
-
 - **Frontend**: React and Vite, styled with the IBM Carbon Design System for a clean, clinical, and functional interface.
 - **Backend**: C++ using the Drogon framework. This was chosen to study performance-oriented web development, memory management, and concurrency.
 - **Database**: PostgreSQL, used to explore data integrity, transaction isolation, and indexing strategies.
@@ -27,7 +25,7 @@ Bankara was built using technologies chosen specifically to explore fundamental 
 
 ## Engineering Concepts Explored
 
-Recent development focused heavily on identifying and fixing common web vulnerabilities (OWASP Top 10) to improve the application's resilience:
+Focused heavily on identifying and fixing common web vulnerabilities (OWASP Top 10) to improve the application's resilience:
 
 - **Concurrency Control**: Implemented PostgreSQL Advisory Locks (`pg_advisory_xact_lock`) to prevent Time-of-Check to Time-of-Use (TOCTOU) race conditions that could lead to account overdrafts during simultaneous P2P transfers.
 - **Proxy-Aware Rate Limiting**: Updated rate limiters to respect `X-Forwarded-For` headers, preventing self-inflicted Denial of Service (DoS) when deployed behind a reverse proxy.
