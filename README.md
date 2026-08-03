@@ -14,7 +14,6 @@ Bankara functions as a prototype digital wallet with the following features:
 - **Digital Wallet Dashboard**: A clean interface displaying current balances and transaction history.
 - **P2P Fund Transfers**: A system for sending and receiving simulated funds between registered users.
 - **Multi-Factor Authentication (MFA)**: Account protection using Time-Based One-Time Passwords (TOTP) via Google Authenticator.
-- **Professional Aesthetics**: A functional, accessible interface built using IBM's Carbon Design System with a crisp azure blue and white theme.
 
 ## Technologies Used
 
