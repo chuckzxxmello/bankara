@@ -1,13 +1,5 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=Anaheim&size=32&duration=3000&pause=1000&color=0081FB&width=1000&lines=Bankara;API+Endpoint+Tester" alt="Typing SVG" />
 
-**Bankara** is a project designed to explore backend engineering, web security, databases, networking, and software architecture. 
-
-The name comes from the Japanese concept of Bankara - a spirit associated with ruggedness, independence, and a willingness to take a different path from prevailing trends.
-
-For this project, that idea translates into choosing to learn beneath the abstraction layer rather than relying entirely on managed platforms and generated solutions.
-
-This is a small-scale project built to better understand how modern financial software operates at a lower level. It prioritizes learning, experimentation, and technical understanding over speed of deployment.
-
 ## Project Overview
 
 Bankara functions as a prototype digital wallet with the following features:
